@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://i.pinimg.com/originals/8f/c5/3f/8fc53fc5d0336c5eec2921c0033e33fc.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 1em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black
+    
+}
+.heading{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+}
+#head{
+    font-size: 2em;
+}
+#subheading{
+    font-size: 15px;
+    margin-top: 10px;
+}
+#content1{
+    width: 90%;
+    margin: auto;
+}
+#content2{
+    width: 90%;
+    margin: auto;
+}
+form{
+    background-color: rgba(84, 82, 82, 0.769);
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 15px;
+    padding-bottom: 40px;
+    color: white;
+}
+form .box{
+    width: 99%;
+    height: 3em;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+#option1 select{
+    width: 99%;
+    height: 3em;
+    position: relative;
+    bottom: 10px;
+    border-radius: 5px;
+    border: 0;
+}
+#content2 textarea{
+    width: 99%;
+    height: 110px;
+    position: relative;
+    bottom: 15px;
+}
+button{
+    width: 99%;
+    height: 3em;
+    position: relative;
+    top: 10px;
+    background-color: rgb(18, 219, 78);
+    border: none;
+    color: rgb(255, 255, 2555);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+textarea::placeholder{
+    font-size: 1.2em;
+    position: relative;
+    top: 8px;
+    left: 10px;
+    width: 70%;
+}
+input::placeholder{
+    font-size: 1.1em;
+    position: relative;
+    left: 10px;
+    width: 50%;
+    font-weight: 500;
+}
+input.larger{
+    width: 18px;
+    height: 18px;
+}

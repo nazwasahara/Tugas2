@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Membuat Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1 id="head">Welcome to Kuizez!</h1>
+        <h2 id="subheading"><i>Please complete the Identity and Survey below to continue the Kuizez</i></h2>
+    </div>
+    
+    <form action="" method="POST">
+        <div id="content1">
+            <label>Nama</label><br><br>
+            <input type="text" name="name" placeholder="Your Name" class="box"><br>
+           
+            <label>Password Kuizez</label><br><br>
+            <input type="password" name="password" placeholder="Your Password" class="box"><br>
+
+            <label>Fakultas</label><br><br>
+        
+        <div id="option1">
+            <select>
+                <option name="fakultas">Select</option>
+                <option value="fkkk">Fakultas Kedokteran, Kedokteran Gigi dan Keperawatan</option>
+                <option value="ffkm">Fakultas Farmasi dan Kesehatan Masyarakat</option>
+                <option value="fh">Fakultas Hukum</option>
+                <option value="fp">Fakultas Pertanian</option>
+                <option value="ft">Fakultas Teknik</option>
+                <option value="feb">Fakultas Ekonomi dan Bisnis</option>
+                <option value="fib">Fakultas Ilmu Budaya</option>
+                <option value="fmipa">Fakultas Matematika dan Ilmu Pengetahuan Alam</option>
+                <option value="fpsisip">Fakultas Psikologi, Ilmu Sosial dan Ilmu Politik</option>
+                <option value="filkomti">Fakultas Ilmu Komputer dan Teknologi Informasi</option>
+                <option value="fv">Fakultas Vokasi</option>
+            </select>
+        </div>
+        </div>
+    </form>
+   
+    <form action="" method="POST">
+        <div id="content2">
+            <label id="head1">Pernahkah kamu melihat secara langsung sikap intoleransi?</label><br><br>
+                <input type="radio" name="radio" class="larger">&nbsp;&nbsp;Ya <br><br>
+                <input type="radio" name="radio" class="larger">&nbsp;&nbsp;Tidak <br><br>
+
+            <label id="head2">Jika pernah, sikap intoleransi seperti apa yang kamu lihat?</label><br><br>
+                <input type="checkbox" name="checkbox" class="larger"><label>&nbsp;&nbsp;Rasisme</label><br><br>
+                <input type="checkbox" name="checkbox" class="larger"><label>&nbsp;&nbsp;Seksisme</label><br><br>
+                <input type="checkbox" name="checkbox" class="larger"><label>&nbsp;&nbsp;Diskriminasi Agama</label><br><br>
+                <input type="checkbox" name="checkbox" class="larger"><label>&nbsp;&nbsp;Lainnya</label><br><br>
+
+            <label id="head3">Apakah kamu pernah melakukan sikap intoleransi kepada orang lain?</label><br><br>
+                <input type="radio" name="radio" class="larger">&nbsp;&nbsp;Ya <br><br>
+                <input type="radio" name="radio" class="larger">&nbsp;&nbsp;Tidak <br><br>
+
+            <label id="head4">Jika pernah, tuliskan sikap intoleransi apa yang kamu lakukan
+                serta berikan alasan mengapa kamu melakukan sikap tersebut!</label><br><br><br>
+            <textarea placeholder="Enter here..."></textarea><br>
+             
+            <button><h3>Submit</h3></button>
+        
+        </div>
+    </form>
+    
+</body>
+</html>
